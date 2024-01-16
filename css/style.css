@@ -13,8 +13,7 @@ body{
 header{
   background-color: white;
   border: 0;
-  margin: 0;
-  line-height: 50px;
+  margin:0 0 40px 0;
 
 }
 
@@ -22,14 +21,17 @@ header{
   vertical-align: middle;
 }
 
+h1{
+  display: inline-block;
+}
+
 /* intestazione */
 .corpo{
   background-color: white;
-  height: 40px;
   border-bottom: solid 1px gray;
   margin: 0 400px;
   padding-left: 40px;
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px;
 }
 
 main div button{
@@ -49,14 +51,19 @@ main div button{
 
 /* corpo centrale */
 
+li{
+  list-style: none;
+}
+
 .centro{
   background-color: white;
+  display: block list-item none;
 }
 
 span{
-  color: white;
-  border: solid black 2px;
   border-radius: 10px;
+  border: solid 1px;
+  color: black
 }
 
 .editorial{
@@ -88,4 +95,16 @@ span{
 .verde-chiaro{
   background-color: greenyellow;
   border: solid greenyellow 5px;
+}
+
+.v{
+  color: greenyellow;
+  border: solid greenyellow;
+  border-radius: 50%;
+}
+
+.x{
+  color: red;
+  border: solid red;
+  border-radius: 50%;
 }
