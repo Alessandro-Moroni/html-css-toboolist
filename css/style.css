@@ -49,10 +49,15 @@ main div button{
   border: solid 1px rgb(21, 177, 238);
 }
 
+hr{
+  color: black;
+}
+
 /* corpo centrale */
 
 li{
   list-style: none;
+  margin-bottom: 15px;
 }
 
 .centro{
@@ -63,7 +68,7 @@ li{
 span{
   border-radius: 10px;
   border: solid 1px;
-  color: black
+  color: white;
 }
 
 .editorial{
