@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: rgb(214, 210, 210);
+  background-color:rgb(246, 248, 249);
   font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -58,7 +58,7 @@ main div div button:hover{
 }
 
 #pulsante{
-  background-color: rgb(21, 177, 238);
+  background-color: rgb(69, 171, 234);
   color: white;
   border: solid 1px rgb(21, 177, 238);
 }
@@ -90,40 +90,40 @@ span{
 }
 
 .editorial{
-  background-color: aqua;
-  border: solid aqua 5px;
+  background-color: rgb(69, 171, 234);
+  border: solid rgb(69, 171, 234) 5px;
  
 }
 
 .goals{
-  background-color: blueviolet;
-  border: solid blueviolet 5px;
+  background-color: rgb(156, 114, 228);
+  border: solid rgb(156, 114, 228) 5px;
 }
 
 .recruiting{
-  background-color: green;
-  border: solid green 5px;
+  background-color: rgb(100, 192, 169);
+  border: solid rgb(100, 192, 169) 5px;
 }
 
 .mobile{
-  background-color: orange;
-  border: solid orange 5px;
+  background-color: rgb(242, 158, 51);
+  border: solid rgb(242, 158, 51) 5px;
 }
 
 .website{
-  background-color: palevioletred;
-  border: solid palevioletred 5px;
+  background-color: rgb(216, 99, 161);
+  border: solid rgb(216, 99, 161) 5px;
 }
 
 .sales{
-  background-color: greenyellow;
-  border: solid greenyellow 5px;
+  background-color: rgb(176, 201, 38);
+  border: solid rgb(176, 201, 38) 5px;
 }
 
 .v{
   display: inline-block;
-  color: greenyellow;
-  border: solid greenyellow 2px;
+  color: rgb(146, 213, 199);
+  border: solid rgb(146, 213, 199) 2px;
   border-radius: 50%;
   margin-right: 5px;
   padding: 0 3px;
@@ -131,8 +131,8 @@ span{
 
 .x{
   display: inline-block;
-  color: red;
-  border: solid red 2px;
+  color: rgb(237, 112, 107);
+  border: solid rgb(237, 112, 107) 2px;
   border-radius: 50%;
   margin-right: 5px;
   padding: 0 3px;
