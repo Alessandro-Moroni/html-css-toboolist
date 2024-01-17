@@ -1,6 +1,6 @@
 *{
-  border: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 
 }
@@ -8,12 +8,14 @@
 body{
   background-color: rgb(214, 210, 210);
   font-family: Arial, Helvetica, sans-serif;
+
 }
 
 /* header */
 header{
   background-color: white;
   margin:0 0 40px 0;
+  padding: 10px 0 10px 20px;
 
 }
 
@@ -23,13 +25,16 @@ header{
 
 h1{
   display: inline-block;
+  vertical-align: middle;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 /* intestazione */
 .intestazione{
-  padding: 20px 0 20px 40px;
+  padding: 15px 0 1px 40px;
   border-bottom: solid gray 1px;
-  padding-left: 40px;
+  padding-bottom: 15px;
 }
 .corpo{
   background-color: white;
@@ -39,12 +44,17 @@ h1{
   border-radius: 10px 10px;
 }
 
-main div button{
+main div div button{
   height: 40px;
   padding: 10px;
   border: solid 1px gray;
   border-radius: 5px;
   color: grey;
+  cursor: pointer;
+}
+
+main div div button:hover{
+  background-color: rgb(207, 199, 199);
 }
 
 #pulsante{
@@ -53,15 +63,18 @@ main div button{
   border: solid 1px rgb(21, 177, 238);
 }
 
-hr{
-  color: black;
+#pulsante:hover{
+  background-color: rgb(80, 206, 238);
 }
 
 /* corpo centrale */
+h3{
+  margin-top: 15px;
+}
 
 li{
   list-style: none;
-  margin-bottom: 15px;
+  margin: 15px 0;
 }
 
 .centro{
@@ -82,39 +95,45 @@ span{
  
 }
 
-.viola{
+.goals{
   background-color: blueviolet;
   border: solid blueviolet 5px;
 }
 
-.verde-scuro{
+.recruiting{
   background-color: green;
   border: solid green 5px;
 }
 
-.arancio{
+.mobile{
   background-color: orange;
   border: solid orange 5px;
 }
 
-.rosa{
+.website{
   background-color: palevioletred;
   border: solid palevioletred 5px;
 }
 
-.verde-chiaro{
+.sales{
   background-color: greenyellow;
   border: solid greenyellow 5px;
 }
 
 .v{
+  display: inline-block;
   color: greenyellow;
-  border: solid greenyellow;
+  border: solid greenyellow 2px;
   border-radius: 50%;
+  margin-right: 5px;
+  padding: 0 3px;
 }
 
 .x{
+  display: inline-block;
   color: red;
-  border: solid red;
+  border: solid red 2px;
   border-radius: 50%;
+  margin-right: 5px;
+  padding: 0 3px;
 }
